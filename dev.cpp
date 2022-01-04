@@ -160,7 +160,9 @@ int main(int argc, char *argv[]) {
 	if (collected_path=="default") {
 		collected_path = "C:\\Program Files (x86)\\Steam\\steamapps\\common\\BlockStory";
 	}
-	cout<<endl<<"Specify the mod you wish to install."<<endl<<"We recomend installing only one mod at a time due to few mods being compatible with one another."<<endl<<"Type 'list' to view all mods, type 'exit' to quit mod loader."<<endl;
+	cout<<endl<<"Use the 'backup' command before installing any mods."<<endl;
+	cout<<"Before changing mods or to return to default gameplay use the 'restore' command.";
+	cout<<"Specify the mod you wish to install."<<endl<<"We recomend installing only one mod at a time due to few mods being compatible with one another."<<endl<<"Type 'list' to view all mods, type 'exit' to quit mod loader."<<endl;
 	
 	while (true) {
 		cout<<">|";
